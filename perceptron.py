@@ -6,7 +6,7 @@ from rich.table import Table
 import sys
 from pathlib import Path
 sys.path.append(str(Path(os.path.abspath(__file__)).parent.parent))
-from utils import *
+# from utils import *
 
 class Perceptron:
     def __init__(self, lr=1e-1, max_iteration=2000, verbose=False):
